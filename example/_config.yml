@@ -1,0 +1,27 @@
+name: Flex
+markdown: kramdown
+highlighter: pygments
+exclude: ["LICENSE.txt", "README.md"]
+
+baseurl: ""
+permalink: /:title/
+
+
+ # Paginate
+paginate: 1
+paginate_path: "/pagination/page:num/"
+
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate
+
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["en", "es" , "it" , "ru" , "th"]
+
+exclude_from_localizations: ["javascript", "images", "css"]
+
+# If not config, the first item of languages will be used as the default.
+language_default:   'en'
