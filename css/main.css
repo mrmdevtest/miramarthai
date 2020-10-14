@@ -78,8 +78,9 @@ h5 {
   font-size: 40px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #168c42;
+  color: #0a0a0a;
 }
+
 
 
 
@@ -203,7 +204,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-rm {
   padding: 7px 0px;
-  color: #999;
+  color:#999;
   text-transform: capitalize;
 }
 
@@ -646,7 +647,7 @@ button:focus {
   6. Features Section Style
    ========================================================================== */
 #features {
-  background: url(../img/bg1.jpg) fixed no-repeat;
+  background: url(../img/c.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -974,7 +975,7 @@ button:focus {
 11. Testimonial Section Style
  ========================================================================== */
 #testimonial {
-  background: url(../img/testimonial-bg.jpg) fixed no-repeat;
+  background: url(../img/bg2.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -1273,3 +1274,11 @@ footer {
 .copyright p a:hover {
   color: #168c42;
 }
+
+
+
+
+
+
+
+

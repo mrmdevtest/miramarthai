@@ -225,7 +225,7 @@
           Lorem ipsum dolor sit amet, consectetur.</p>
       </div>
       <div class="row">
-        <div class="col-lg-8 col-md-12 col-xs-12">
+  
           <div class="container">
             <div class="row">
               <div class="col-lg-6 col-sm-6 col-xs-12 box-item">
@@ -248,8 +248,19 @@
               </div>
               <div class="col-lg-6 col-sm-6 col-xs-12 box-item">
                 <span class="icon">
+                  <i class="lnr lnr-laptop-phone"></i>
+                </span>
+                <div class="text">
+                  <h4>Fully Responsive</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6 col-xs-12 box-item">
+                <span class="icon">
                   <i class="lnr lnr-layers"></i>
                 </span>
+
+
                 <div class="text">
                   <h4>Parallax Background</h4>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -264,19 +275,24 @@
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 </div>
               </div>
+              <div class="col-lg-6 col-sm-6 col-xs-12 box-item">
+                <span class="icon">
+                  <i class="lnr lnr-laptop-phone"></i>
+                </span>
+                <div class="text">
+                  <h4>Fully Responsive</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
             </div>
           </div>
+          
         </div>
-        <div class="col-lg-4 col-xs-12">
-          <div class="show-box">
-            <img class="img-fulid" src="img/features/feature.png" alt="">
-          </div>
-        </div>
-      </div>
+
     </div>
   </section>
   <!-- Features Section End -->
-
+  
 
 
   <!-- Services Section Start -->
@@ -348,7 +364,7 @@
           <li>ใบอนุญาตจดทะเบียนพาณิชย์อิเล็กทรอนิกส์ เลขที่ 0105545027661 ออกโดยกระทรวงพาณิชย์</li>
         </ul><br>
       </div>
-      <br>
+     <br>
 
       <button class="accordion">กรรมการผู้บริหาร</button>
       <div class="panel"><br><center>
@@ -699,36 +715,190 @@
 
   <!-- testimonial Section Start -->
 
-  <div id="testimonial" class="section" data-stellar-background-ratio="0.1">
-    <div class="container">
-      <div class="row justify-content-md-center"></div>
-      <div class="section-header">
-        <h2>พันธมิตร</h2>
-        <hr class="lines"><br>
-        <p>แบรนด์พันธมิตรระดับชั้นนำ ทั้งในประเทศและต่างประเทศ จากหลากหลายกลุ่มธุรกิจของเรา</p>
+  <!DOCTYPE html>
+  <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  </style>
+  <body>
+    <div id="testimonial" class="section" data-stellar-background-ratio="0.1">
+      <div class="container">
+        <div class="row justify-content-md-center"></div>
+        <div class="section-header">
+          <h5>พันธมิตร</h5>
+          <hr class="lines"><br>
+          <p>แบรนด์พันธมิตรระดับชั้นนำ ทั้งในประเทศและต่างประเทศ จากหลากหลายกลุ่มธุรกิจของเรา</p>
+        </div>
       </div>
+      <br>
+  <div class="container">
+    <div class="mySlides"><center>
+      <img src="img/sabre.png" alt="Avatar" class="avatar" width="100" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/TVP.jpg" alt="Avatar" class="avatar" width="170" height="50"> &nbsp; &nbsp; &nbsp;  
+      <img src="img/amadeus.png" alt="Avatar" class="avatar" width="150" height="100"> &nbsp; &nbsp; &nbsp;  
+      <img src="img/iata.png" alt="Avatar" class="avatar" width="100" height="100"> &nbsp; &nbsp; &nbsp;  
+      <img src="img/กสิกร.png" alt="Avatar" class="avatar" width="100" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/scb.png" alt="Avatar" class="avatar" width="230" height="100"> &nbsp; &nbsp; &nbsp; 
+      <br><br><br>
+      <img src="img/กรุงเทพ.jpg" alt="Avatar" class="avatar" width="180" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/กรุงไทย.png" alt="Avatar" class="avatar" width="100" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/tmb.png" alt="Avatar" class="avatar" width="130" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/citi.png" alt="Avatar" class="avatar" width="100" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/ธนชาต.png" alt="Avatar" class="avatar" width="130" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/กรุงศรี.jpg" alt="Avatar" class="avatar" width="180" height="100"> &nbsp; &nbsp; &nbsp; 
+    </center></div>
+    
+    <div class="mySlides"><center>
+      <img src="img/PTT.png" alt="Avatar" class="avatar" width="170" height="80"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/True.png" alt="Avatar" class="avatar" width="170" height="80"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/AIS.png" alt="Avatar" class="avatar" width="90" height="80"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/areeya.png" alt="Avatar" class="avatar" width="170" height="80"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/the1.png" alt="Avatar" class="avatar" width="90" height="80"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/กินเที่ยวarond.png" alt="Avatar" class="avatar" width="130" height="80"> &nbsp; &nbsp; &nbsp; 
+      <br><br><br>
+      <img src="img/ฮงกง.png" alt="Avatar" class="avatar" width="130" height="120"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/macau.png" alt="Avatar" class="avatar" width="120" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/Hong_Kong.png" alt="Avatar" class="avatar" width="180" height="100"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/japan.png" alt="Avatar" class="avatar" width="120" height="80"> &nbsp; &nbsp; &nbsp; 
+      <img src="img/เมืองไทยประกันชีวิต.jpg" alt="Avatar" class="avatar" width="130" height="120"> &nbsp; &nbsp; &nbsp; 
+    </center></div>
+  
+ 
+<br><br><br><br>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+ 
+
+  </div>
     </div>
 
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
 
-
-      <center>
-<img src="img/sabre.png" alt="Avatar" class="avatar" width="100" height="100">&nbsp;
-<img src="img/galileo.png" alt="Avatar" class="avatar" width="150" height="100">&nbsp;
-<img src="img/amadeus.png" alt="Avatar" class="avatar" width="130" height="100">&nbsp;
-<img src="img/iata.png" alt="Avatar" class="avatar" width="100" height="100">&nbsp;
-<img src="img/กสิกร.png" alt="Avatar" class="avatar" width="100" height="100">&nbsp;&nbsp;
-<img src="img/scb.png" alt="Avatar" class="avatar" width="200" height="100">&nbsp;
-
-
-</center>
-
-
-
-  </div>
-
-  </div>
-  </div>
-  </div>
   <!-- testimonial Section Start -->
 
   <!-- Blog Section -->
@@ -835,8 +1005,6 @@
               <div class="contact-address">
                 <p>บริษัท มิราม่า เซอร์วิส (ประเทศไทย) จำกัด</p>
                 
-
-
                 <p class="address">ที่อยู่ : <span>1429 ศรีวรา ทาวน์อินทาวน์ 3/3 ซอยลาดพร้าว 94 (ปัญจมิตร) <br>ถนนลาดพร้าว แขวงพลับพลา เขตวังทองหลาง
                   กรุงเทพ 10310</span></p>
                   <p class="phone">Call Center : <span>+66(0)2-792-9292</span></p>
@@ -845,11 +1013,8 @@
               </div>
               <div class="social-icons">
                 <ul>
-                  <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                  <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                  <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li class="facebook"><a href="https://www.facebook.com/miramarservicesthailand/"><i class="fa fa-facebook"></i></a></li>
+                  <li class="line"><a href="#"><i class="fa fa-line"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -902,24 +1067,24 @@
         <div class="col-lg-6 col-sm-6 col-xs-12">
           <ul class="footer-links">
             <li>
-              <a href="#">Homepage</a>
+              <a href="#hero-area">หน้าหลัก</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#pricing">ธุรกิจของเรา</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="#features">บริการของเรา</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">ติดต่อเรา</a>
             </li>
           </ul>
         </div>
         <div class="col-lg-6 col-sm-6 col-xs-12">
           <div class="copyright">
-            <p>Copyright © 2020 Miramar Thailand Service Powered b 
+            <p>Copyright © 2020 Miramar Thailand Service Powered by
               <a rel="nofollow"
-                href="http://www.onlynx.tech/th/">Onlynx</a></p>
+                href="http://www.onlynx.tech/th/">Onlynx.tech</a></p>
           </div>
         </div>
       </div>
@@ -961,6 +1126,6 @@
   <script src="js/contact-form-script.js"></script>
   <script src="js/main.js"></script>
 
+  
 </body>
-
 </html>
