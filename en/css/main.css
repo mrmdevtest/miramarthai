@@ -119,6 +119,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
   margin-bottom: 40px;
   text-align: center;
+  
 }
 
 .section-header .section-title {
@@ -197,6 +198,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   background-color: transparent;
   border: 2px solid #fff;
   border-radius: 4px;
+  
 }
 
 .btn-border:hover {
@@ -514,6 +516,7 @@ button:focus {
 
 .top-nav-collapse .navbar-nav .nav-link.active {
   color: #fff !important;
+
 }
 
 .indigo {
@@ -559,7 +562,7 @@ button:focus {
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
-    padding-top: 18px;
+    padding-top: 1px;
   }
 }
 
@@ -578,6 +581,7 @@ button:focus {
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
+    
   }
   .navbar-brand {
     position: absolute;
