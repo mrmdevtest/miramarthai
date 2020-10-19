@@ -897,13 +897,13 @@ button:focus {
 	9. Pricing Table
 	========================================================================== */
 .pricing-table {
-  padding: 0px 0px 40px 0px;
+  padding: 0px 0px 20px 0px;
   margin: 0 auto;
   margin-bottom: 5px;
   border: transparent;
   text-align: center;
   background-color: #FFFFFF;
-  border: 3px solid #f1f1f1;
+  
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -949,6 +949,8 @@ button:focus {
 .table-left {
   margin-top: 20px;
 }
+
+/*=========================================================================================================*/
 
 /* ==========================================================================
  10. Counter Section Style
