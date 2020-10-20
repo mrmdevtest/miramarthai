@@ -26,15 +26,57 @@
 
 </head>
 
-<body>
+<style>
+  .btn {
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+  }
 
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100px;
+    z-index: 1;
+    
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: rgb(255, 255, 255)
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .btn:hover,
+  .dropdown:hover .btn {
+    background-color: #0b7dda;
+  }
+</style>
+
+<body>
   <!-- Header Section Start -->
   <header id="hero-area" data-stellar-background-ratio="0.5">
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+      <!-- <div class="container">
+         Brand and toggle get grouped for better mobile display -->
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <div class="navbar-header">
           <a href="index.html" class="navbar-brand"><img class="img-fulid"
               src="https://www.wonderfulpackage.com/uploads/moxie/%E0%B8%A1%E0%B8%B4%E0%B8%A3%E0%B8%B2%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B9%8A%E0%B8%9B%E0%B9%84%E0%B8%97%E0%B8%A2%202.png"
               alt=""></a>
@@ -43,8 +85,9 @@
             <i class="lnr lnr-menu"></i>
           </button>
         </div>
+        <div class="left">
         <div class="collapse navbar-collapse" id="main-navbar">
-          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end"> 
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#hero-area">ABOUT&nbsp;US</a>
             </li>
@@ -70,17 +113,25 @@
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#contact">CONTACT&nbsp;US</a>
             </li>
+
+
+
             <li class="nav-item">
-                <!--<button class="btn warning" href="en/index.html">ภาษาไทย</button>-->
-              
-
-             <a class="nav-link page-scroll" href="index.html">ENGLISH</a>
-
+              <div class="nav-link page-scroll" href="#">ENGLISH
+                <div class="dropdown"> &nbsp;
+                  <i class="fa fa-caret-down"></i>
+                  <div class="dropdown-content">
+                    <a href="index.html">ภาษาไทย</a>
+                    <a href="">中文</a>
             </li>
-          </ul>
         </div>
       </div>
-
+      </div>
+      </ul>
+      </div>
+      </div>
+  
+    </div>
       <!-- Mobile Menu Start -->
       <ul class="mobile-menu">
         <li>
@@ -124,7 +175,7 @@
       <div class="row justify-content-md-center">
         <div class="col-md-10">
           <div class="contents text-center">
-            <h4 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s" >About us</h4>
+            <h4 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s" >ABOUT US</h4>
             <br>
             <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">
               
@@ -186,7 +237,7 @@
           <div class="pricing-table">
             <div class="pricing-details">
               <h2>Payment Solution</h2>
-              <a href=""><img src="https://www.wonderfulpackage.com/uploads/moxie/pt.png" width="140" height="45" alt=""></a><br>
+              <a href="https://ptlink.com.hk/"><img src="https://www.wonderfulpackage.com/uploads/moxie/pt.png" width="140" height="45" alt=""></a><br>
             </div>
           </div>
         </div><br><br>
@@ -259,7 +310,7 @@
   <section id="features" class="section" data-stellar-background-ratio="0.2">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">OUR PARTNER</h2>
+        <h2 class="section-title">OUR SERVICES</h2>
         <hr class="lines">
         <!--<p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br>
           Lorem ipsum dolor sit amet, consectetur.</p>-->
@@ -501,7 +552,7 @@
   <section id="services" class="section">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">COMPANY STRUCTURE </h2>
+        <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">COMPANY STRUCTURE</h2>
         <hr class="lines wow zoomIn" data-wow-delay="0.3s">
       </div>
 
@@ -509,7 +560,7 @@
         .accordion {
           background-color: #168c42 ;
           cursor: pointer;
-          padding: 18px;
+          padding: 15px;
           width: 100%;
           border: none;
           text-align: left;
@@ -517,7 +568,7 @@
           font-size: 18px;
           transition: 0.4s;
           color: white;
-          border-radius: 15px;
+          border-radius: 10px;
         }
 
         .active,
