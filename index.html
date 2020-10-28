@@ -9,7 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="author" content="Grayrids">
   	
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <title>miramarthai</title>
 
@@ -26,6 +29,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 
 </head>
 
@@ -349,7 +353,7 @@
 
       <div class="row pricing-tables">
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a href="index1.html">
+          <!--<a href="index1.html">-->
             <div class="pricing-table">
               <div class="img-hover-zoom img-hover-zoom--xyz">
                 <img src="img/1.jpg" width="350px" height="250px" style="border-radius: 10px 10px 0px 0px"></div>
@@ -360,7 +364,7 @@
           </a></div>
 
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a href="index1.html">
+         
             <div class="pricing-table">
               <div class="img-hover-zoom img-hover-zoom--xyz">
                 <img src="img/2.jpg" width="350px" height="250px" style="border-radius: 10px 10px 0px 0px"></div>
@@ -372,7 +376,7 @@
           </a></div>
 
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <a href="index1.html">
+          
             <div class="pricing-table">
               <div class="img-hover-zoom img-hover-zoom--xyz">
                 <img src="img/3.jpg" width="350px" height="250px" style="border-radius: 10px 10px 0px 0px"></div>
@@ -386,7 +390,7 @@
 
 
         <div class="col-md-4 col-sm-6 col-xs-12"><br>
-          <a href="index1.html">
+          
             <div class="pricing-table">
               <div class="img-hover-zoom img-hover-zoom--xyz">
                 <img src="img/4.jpg" width="350px" height="250px" style="border-radius: 10px 10px 0px 0px"></div>
@@ -397,7 +401,7 @@
           </a></div>
 
         <div class="col-md-4 col-sm-6 col-xs-12"><br>
-          <a href="index1.html">
+       
             <div class="pricing-table">
               <div class="img-hover-zoom img-hover-zoom--xyz">
                 <img src="img/5.jpg" width="350px" height="250px" style="border-radius: 10px 10px 0px 0px"></div>
@@ -408,7 +412,7 @@
           </a></div>
 
         <div class="col-md-4 col-sm-6 col-xs-12"><br>
-          <a href="index1.html">
+      
             <div class="pricing-table">
               <div class="img-hover-zoom img-hover-zoom--xyz">
                 <img src="img/6.jpg" width="350px" height="250px" style="border-radius: 10px 10px 0px 0px"></div>
@@ -618,6 +622,7 @@
           overflow: hidden;
           transition: max-height 0.2s ease-out;
         }
+
       </style>
 
 
@@ -639,6 +644,7 @@
         </ul><br>
       </div>
       <br>
+
       <button class="accordion">กรรมการผู้บริหาร</button>
       <div class="panel"><br>
         <center>
@@ -1001,6 +1007,7 @@
 
     img{
       vertical-align: middle;
+
     }
 
     /* Position the image container (needed to position the left and right arrows) */
@@ -1090,8 +1097,12 @@
 
     #im {
       opacity: 0.4;
-      filter: alpha(opacity=90);
+      filter: alpha(opacity=80);
       /* For IE8 and earlier */
+      max-width: auto !important;
+     
+      max-height: auto !important;
+      
     }
 
     #im:hover {
@@ -1099,9 +1110,12 @@
       filter: alpha(opacity=100);
       /* For IE8 and earlier */
     }
+
+
+    
   </style>
 
-  <body>
+  
     <div id="testimonial" class="section" data-stellar-background-ratio="0.1">
       <div class="container">
         <div class="row justify-content-md-center"></div>
@@ -1117,8 +1131,8 @@
       <br>
       <div class="container">
         <div class="mySlides">
+          <div class="page-content">
           <center>
-
             <a href="https://www.sabre.com/"><img id="im" src="img/sabre.png" alt="Avatar" class="avatar" width="100"
                 height="100"></a> &nbsp; &nbsp; &nbsp;
             <a href="https://www.travelport.com/"><img id="im" src="img/TVP.jpg" alt="Avatar" class="avatar" width="170"
@@ -1144,8 +1158,8 @@
                 alt="Avatar" class="avatar" width="110" height="90"></a> &nbsp; &nbsp; &nbsp;
             <a href="https://www.krungsri.com/th/personal"><img id="im" src="img/กรุงศรี.jpg" alt="Avatar"
                 class="avatar" width="130" height="90"></a> &nbsp; &nbsp; &nbsp;
-          </center>
-        </div>
+            </ul></center>
+        </div></div>
 
 
 
@@ -1221,6 +1235,9 @@
         captionText.innerHTML = dots[slideIndex - 1].alt;
       }
     </script>
+
+
+
 
     <!-- testimonial Section Start -->
 
@@ -1365,6 +1382,7 @@
                 </div>
               </div>
             </div>
+            
             <!--<div class="col-lg-6 col-sm-6 col-xs-12">
             <div class="contact-block">
               <form id="contactForm">
@@ -1406,21 +1424,22 @@
   </section>-->
             <!-- Contact Section End -->
             <!------------------------------------------------ From ------------------------------------------------------------------->
-
+            <div>
             <script charset="utf-8" f type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
             <script>
               hbspt.forms.create({
                 portalId: "6122360",
                 formId: "9df32b18-2b73-42c0-ba18-65934810ccde"
               });
-            </script>
-          </div>
+            </script><br>
+            <a href="https://www.trustmarkthai.com/callbackData/popup.php?data=66ad1a0-34-4-02744211a6b144ec91ef83327128464671c70"><img src="https://www.trustmarkthai.com/trust_banners/dbd_silver.png" width="120px" height="40px"></a> &nbsp; &nbsp;
+            <img src="https://logoeps.com/wp-content/uploads/2012/06/iata-logo-vector-01.png" width="80px" height="80px">
+          </div></div>
         </div>
       </div>
     </section>
 
-
-
+      
     <!-- Footer Section Start -->
     <footer>
       <div class="container">
@@ -1487,6 +1506,8 @@
     <script src="js/contact-form-script.js"></script>
     <script src="js/main.js"></script>
 
+
+    
 
   </body>
 
